@@ -56,7 +56,7 @@ This returns all tasks for the specific plan.
 
 ### Example 2
 ```powershell
-$tasks = Get-PnPPlannerTask -Group "Marketing" -Plan "Conference Plan" -ResolveUserDiplayNames
+$tasks = Get-PnPPlannerTask -Group "Marketing" -Plan "Conference Plan" -ResolveUserDisplayNames
 $task = $tasks | Select-Object -First 1
 $task.CreatedBy.DisplayName 
 ```
